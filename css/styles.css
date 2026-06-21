@@ -42,8 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 93, 93, 93;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 73, 80, 87;
+  --bs-secondary-rgb: 73, 80, 87;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
+  --bs-link-color: #36afc7;
   --bs-link-hover-color: #974a2d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -112,17 +112,32 @@ hr {
   opacity: 0.25;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
   color: #ffffff;
+  padding-top: 2rem;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  padding-top: 0rem;
+}
+
+.date-text{
+  padding-top: 2rem;
 }
 
 h1, .h1 {
-  font-size: calc(1.725rem + 5.7vw);
+  font-size: calc(1.425rem + 5.7vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -2847,19 +2862,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #bd5d38;
-  --bs-btn-border-color: #bd5d38;
+  --bs-btn-bg: #418f9e;
+  --bs-btn-border-color: #418f9e;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #c77556;
-  --bs-btn-hover-border-color: #c46d4c;
+  --bs-btn-hover-bg: #418f9e;
+  --bs-btn-hover-border-color: #418f9e;
   --bs-btn-focus-shadow-rgb: 161, 79, 48;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ca7d60;
-  --bs-btn-active-border-color: #c46d4c;
+  --bs-btn-active-bg: #418f9e;
+  --bs-btn-active-border-color: #418f9e;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #bd5d38;
-  --bs-btn-disabled-border-color: #bd5d38;
+  --bs-btn-disabled-bg: #418f9e;
+  --bs-btn-disabled-border-color: #418f9e;
 }
 
 .btn-secondary {
@@ -2982,19 +2997,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #bd5d38;
-  --bs-btn-border-color: #bd5d38;
+  --bs-btn-color: #418f9e;
+  --bs-btn-border-color: #418f9e;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #bd5d38;
-  --bs-btn-hover-border-color: #bd5d38;
+  --bs-btn-hover-bg: #418f9e;
+  --bs-btn-hover-border-color: #418f9e;
   --bs-btn-focus-shadow-rgb: 189, 93, 56;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #bd5d38;
-  --bs-btn-active-border-color: #bd5d38;
+  --bs-btn-active-bg: #418f9e;
+  --bs-btn-active-border-color: #418f9e;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #bd5d38;
+  --bs-btn-disabled-color: #418f9e;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #bd5d38;
+  --bs-btn-disabled-border-color: #418f9e;
   --bs-gradient: none;
 }
 
@@ -3004,7 +3019,7 @@ textarea.form-control-lg {
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #6c757d;
   --bs-btn-hover-border-color: #6c757d;
-  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-focus-shadow-rgb: 73, 80, 87;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #6c757d;
   --bs-btn-active-border-color: #6c757d;
@@ -6663,7 +6678,7 @@ textarea.form-control-lg {
 
 .text-bg-secondary {
   color: #fff !important;
-  background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(73, 80, 87, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -10845,7 +10860,7 @@ h3,
 h4,
 .h4,
 h5,
-.h5,
+.h5
 h6,
 .h6 {
   text-transform: uppercase;
@@ -10864,7 +10879,7 @@ p.lead {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
 }
 
 #sideNav {
@@ -10937,7 +10952,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #36afc7;
 }
 
 .dev-icons {
@@ -10947,26 +10962,47 @@ p.lead {
 section.resume-section {
   display: flex;
   align-items: center;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  /* padding-top: 2rem; */
+  padding-bottom: 2rem;
   max-width: 75rem;
+  scroll-margin-top: 2rem;
 }
 section.resume-section .resume-section-content {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+/* Set a uniform height for the sliding container */
+.carousel-item {
+  height: 300px; /* Adjust this value to your preferred layout size */
+  background-color: #000; /* Fills empty space if image ratios change */
+}
+
+/* Force the image to cleanly fill the defined container zone */
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain; /* Keeps aspect ratio while cropping to fit */
+  object-position: center; /* Centers the image frame */
+}
+
+@media (max-width: 768px) {
+  .date-text {
+    padding-top: 0rem;
+  }
+}
+
+/* @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
-}
-@media (min-width: 992px) {
+} */
+/* @media (min-width: 992px) {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-}
+} */
